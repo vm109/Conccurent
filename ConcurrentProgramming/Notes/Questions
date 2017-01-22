@@ -2,4 +2,14 @@
 
 1. Can we use multithreading in webserver to increase the speed?
 a. No, we should prevent to use multithreading in webserver because it will 
-reduce the capability of the web server to handle the ther Http requests. 
+reduce the capability of the web server to handle the ther Http requests.
+
+
+2. What is static method and non static method synchronization and what is 
+the important thing to note?
+We can have static method synchronization which means we will get the lock 
+on the class level.
+In the non static method we will get the lock on the instance level.
+Note : 
+So by this even a thread acquires a lock on the static method another thread
+can access the non static method. 
