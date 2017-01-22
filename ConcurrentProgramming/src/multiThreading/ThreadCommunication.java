@@ -1,4 +1,4 @@
-package MultiThreading;
+package multiThreading;
 
 class Bank implements Runnable{
 	
