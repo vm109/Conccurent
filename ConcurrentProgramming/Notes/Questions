@@ -1,0 +1,5 @@
+// Multi threading in web development
+
+1. Can we use multithreading in webserver to increase the speed?
+a. No, we should prevent to use multithreading in webserver because it will 
+reduce the capability of the web server to handle the ther Http requests. 
